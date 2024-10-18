@@ -320,8 +320,6 @@ p {
 	width: 80px;
 	margin-bottom: 20px;
 	filter: drop-shadow(4px 4px  3px #000000);
-
-
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -602,7 +600,7 @@ p {
 
 	/* Services Section */
 	#services .service-bottom .service-item {
-		flex-basis: 45%;
+		flex-basis: 95%;
 		margin: 2.5%;
 	}
 	/* End Services Section */
@@ -610,15 +608,19 @@ p {
 	/* Project */
 	#projects .project-item {
 		flex-direction: row;
+		width: 80%;
+		height: 400px;
+		margin: 20px auto;
+		border-radius: 10px;
+		padding: auto;
 	}
 	#projects .project-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
+		width: 80%;
 		height: 400px;
-		margin: 0;
-		width: 100%;
-		border-radius: 0;
+		border-radius: 10px;
 	}
 	#projects .all-projects .project-info {
 		height: 100%;
@@ -714,7 +716,7 @@ p {
 	/* End header */
 
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
+		flex-basis: 40%;
 		margin: 1.5%;
 	}
 }
